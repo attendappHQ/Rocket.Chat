@@ -347,7 +347,7 @@ RocketChat.settings.addGroup('General', function() {
 		i18nDescription: 'Site_Url_Description',
 		'public': true
 	});
-	this.add('Site_Name', 'Rocket.Chat', {
+	this.add('Site_Name', 'Hub AttendApp', {
 		type: 'string',
 		'public': true
 	});
@@ -1259,7 +1259,7 @@ RocketChat.settings.addGroup('Layout', function() {
 			multiline: true,
 			'public': true
 		});
-		this.add('Layout_Login_Terms', 'By proceeding you are agreeing to our <a href="terms-of-service">Terms of Service</a> and <a href="privacy-policy">Privacy Policy</a>.', {
+		this.add('Layout_Login_Terms', 'By proceeding you are agreeing to our <a href="terms-of-service">Terms of Service</a> and <a href="http://attendapp.org/index.php/policy/">Privacy Policy</a>.', {
 			type: 'string',
 			multiline: true,
 			'public': true
